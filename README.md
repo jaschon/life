@@ -2,7 +2,7 @@
 Quick Game of Life in Python
 
 ```
-    l = Life(width=20, height=20, seconds=1)
+    l = Life(size=50, secs=1) #start size and update time (in seconds)
     l.seed( (1,1), (2,1), (3,1)  ) #seed with a list of tuples (col [from top], row [left to right])
     l.loop()
 ```
