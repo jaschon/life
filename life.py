@@ -3,8 +3,9 @@
 from time import sleep
 
 class Life:
-
+    #Neighbor rules: (0 or 1 [Live or Dead], how many neighbors)
     rules = {(1,2): 1, (1,3): 1, (0,3): 1,}
+    #Characters that mark live or dead
     mark = ("◻","◼")
 
     def __init__(self, size=20, sec=1):
